@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="201074" started-at="2020-02-19T11:53:54 COT" finished-at="2020-02-19T11:57:15 COT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="201074" started-at="2020-02-19T11:53:54 COT" finished-at="2020-02-19T11:57:15 COT">
+      <class name="greenMobile.test.Ejecucion">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:greenMobile.test.Ejecucion@3b94d659]" name="setUp" is-config="true" duration-ms="12449" started-at="2020-02-19T11:53:54 COT" finished-at="2020-02-19T11:54:06 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ingresarLogin()[pri:0, instance:greenMobile.test.Ejecucion@3b94d659]" name="ingresarLogin" duration-ms="179209" started-at="2020-02-19T11:54:06 COT" finished-at="2020-02-19T11:57:05 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarLogin -->
+        <test-method status="PASS" signature="finalizeTest(org.testng.ITestResult)[pri:0, instance:greenMobile.test.Ejecucion@3b94d659]" name="finalizeTest" is-config="true" duration-ms="6847" started-at="2020-02-19T11:57:05 COT" finished-at="2020-02-19T11:57:12 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ingresarLogin status=SUCCESS method=Ejecucion.ingresarLogin()[pri:0, instance:greenMobile.test.Ejecucion@3b94d659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:greenMobile.test.Ejecucion@3b94d659]" name="exit" is-config="true" duration-ms="2535" started-at="2020-02-19T11:57:12 COT" finished-at="2020-02-19T11:57:15 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- greenMobile.test.Ejecucion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
